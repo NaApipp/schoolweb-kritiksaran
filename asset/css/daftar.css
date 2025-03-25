@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Candal&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.head {
+  text-align: center;
+  padding-top: 100px;
+  font-size: 3rem;
+  font-family: "Merriweather Sans";
+  font-weight: bold;
+  color: #000;
+}
+
+.head::after {
+content: "";
+display: block;
+width: 300px;
+height: 2px;
+border-radius: 5px;
+background-color: #000;
+margin: 2px auto;
+margin-bottom: 10px;
+}
+
+.form {
+    display: flex;
+    justify-content: center; /* Pusatkan secara horizontal */
+    align-items: center;
+    padding: 20px;
+}
+
+.login {
+    justify-content: center;
+    width: 680px;
+    background-color: #ffffff;
+    border-radius: 5px;
+  }
+
+  .hader {
+    text-align: center;
+    font-size: 22px;
+    font-weight: 700;
+    margin-top: 30px;
+  }
+
+  .hader p {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    color: #706b6b;
+  }
+
+  .hader .top {
+    font-size: 1.9rem;
+    color: #000;
+    font-weight: 500;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 20px;
+    padding: 30px;
+  }
+  form input {
+    height: 40px;
+    outline: none;
+    border: 1px solid #cccccc;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 8px;
+  }
+  form input[type="button"] {
+    background-color: rgba(17, 17, 226, 0.562);
+    color: #ffffff;
+    font-size: 17px;
+  }
+  form span {
+    text-align: center;
+    font-size: 16px;
+    padding-top: 10px;
+    color: #706b6b;
+  }
+  form span a {
+    text-decoration: none;
+    color: rgba(36, 36, 207, 0.671);
+    font-weight: 500;
+  }
+
+  /* From Uiverse.io by adamgiebl */ 
+button {
+  background: #fbca1f;
+  font-family: inherit;
+  padding: 0.6em 1.3em;
+  font-weight: 900;
+  font-size: 18px;
+  border: 3px solid black;
+  border-radius: 0.4em;
+  box-shadow: 0.1em 0.1em;
+  cursor: pointer;
+}
+
+button:hover {
+  transform: translate(-0.05em, -0.05em);
+  box-shadow: 0.15em 0.15em;
+}
+
+button:active {
+  transform: translate(0.05em, 0.05em);
+  box-shadow: 0.05em 0.05em;
+}
+
+select {
+  width: 100%; /* Lebar penuh */
+  padding: 10px;
+  border: 2px solid grey; /* Warna border hijau */
+  border-radius: 5px; /* Membuat sudut melengkung */
+  background-color: #fff; /* Warna latar belakang putih */
+  font-size: 16px;
+  color: #333; /* Warna teks */
+  cursor: pointer;
+  outline: none; /* Menghilangkan outline saat klik */
+}
+
+/* Hover effect */
+select:hover {
+  border-color: yellow;
+}
+
+/* Style untuk opsi di dalam dropdown */
+option {
+  padding: 10px;
+  background: #fff;
+  color: #333;
+}
+
+
+
+@media screen and (max-width: 790px) {
+  .head {
+    font-size: 2.8rem;
+    line-height: 45px;
+    /* color: yellow; */
+  }
+  .head::after {
+    width: 130px;
+  }
+  .hader .top {
+    line-height: 25px;
+    font-size: 1.5rem;
+    padding: 10px;
+  }
+  .hader p {
+    padding-top: 20px;
+    line-height: 20px;
+  }
+  .chat-text h2 {
+    font-size: 1rem;
+  }
+  .chat-text p {
+    font-size: 15px;
+  }
+}

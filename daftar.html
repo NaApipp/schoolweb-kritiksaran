@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SMKN 4 Kendal | Form Aduan</title>
+
+    <!--Link To Default CSS-->
+    <link rel="stylesheet" href="asset\css\style.css">
+
+    <!--Link To Daftar CSS-->
+    <link rel="stylesheet" href="asset\css\daftar.css">
+
+    <!--Link To Icon Favicon-->
+    <link rel="shortcut icon" href="asset/image/logo/logo skanipret.png" type="image/x-icon">
+
+
+</head>
+<body>
+
+    <!-- NAVBAR START -->
+    <nav>
+        <div class="logo">
+          <a href="index.html#home"><img src="asset/image/logo/logo skanipret.png" alt="logo" /></a>
+          <a href="index.html#home" style="text-decoration: none;"><h1>SMKN 4 KENDAL</h1></a>
+        </div>
+        <ul>
+          
+          <li>
+            <a class="scroll-page" href="index.html#home">Home</a>
+          </li>
+          <li>
+            <a class="scroll-page" href="index.html#sejarah">Sejarah</a>
+          </li>
+          <li>
+            <a class="scroll-page" href="index.html#berita">Berita Skanifo</a>
+          </li>
+          <li>
+            <a class="scroll-page" href="index.html#prestasi">Prestasi</a>
+          </li>
+          <li>
+            <a class="scroll-page" href="index.html#gallery">Gallery</a>
+          </li>
+          <li>
+            <a class="contact" href="daftar.html">Kontak</a>
+          </li>
+        </ul>
+        <div class="hamburger">
+          <span class="line"></span>
+          <span class="line"></span>
+          <span class="line"></span>
+        </div>
+      </nav>
+      <div class="menubar">
+        <ul>
+
+          <li>
+            <a class="scroll-page" href="index.html#home">Home</a>
+          </li>
+          <li>
+            <a class="scroll-page" href="index.html#sejarah">Sejarah</a>
+          </li>
+          <li>
+            <a class="scroll-page" href="index.html#berita">Berita Skanifo</a>
+          </li>
+          <li>
+            <a class="scroll-page" href="index.html#prestasi">Prestasi</a>
+          </li>
+          <li>
+            <a class="scroll-page" href="index.html#gallery">Gallery</a>
+          </li>
+          <li>
+            <a class="contact" href="daftar.html">Kontak</a>
+          </li>
+        </ul>
+      </div>
+      <!-- NAVBAR ENDS -->
+
+      <!-- HEADLINE / TAGLINE -->
+      <p class="head">Form Kontak SKANIFO</p>
+
+      <!-- Section FORM -->
+    <section id="form">
+    <div class="form">
+<div class="login">
+    <div class="hader">
+      <p class="top" style="padding-top: px;">Berikan Pertanyaan, Kritik dan Saran Anda</p>
+      <p>Pertanyaan serta Kritik dan Saran dari anda, sangat berarti bagi kami.</p>
+    </div>
+    <form action="function\index.php" method="POST">
+      <label for="nama" style="font-weight: bold;">Nama: </label>
+      <input name="nama" type="text" placeholder="Masukkan Nama Lengkap" required>
+
+      <label for="email" style="font-weight: bold;">Email: </label>
+      <input name="email" type="email" placeholder="Masukkan Email Aktif" required>
+      
+      <!-- Input Type type -->
+      <label for="tipe" style="font-weight: bold;">Kategori: </label>
+      <select id="tipe" name="tipe">
+          <option value="pertanyaan">Pertanyaan</option>
+          <option value="kritik dan saran">Kritik & Saran</option>
+      </select>
+      <!-- Form Pesan -->
+      <label for="pesan" style="font-weight: bold;">Pesan: </label>
+      <input name="pesan" type="pesan" placeholder="Masukkan Pesan atau aduan" required>
+
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+</div>
+</section>
+
+
+
+
+<!-- Footer -->
+<footer>
+  <p>
+    &copy; 2025 SuperApps Team. All Rights Reserved.<br />
+    Powered by <a class="credits" href="https://superappsporto.vercel.app/" target="_blank">NabilApipp</a>
+  </p>
+</footer>
+
+
+<!-- Link To JavaScript -->
+<script src="asset\JavaScript\script.js"></script>
+</body>
+</html>
