@@ -6,7 +6,8 @@ SMKN 4 Kendal is the place where I studied Software Engineering, this time I re-
 1. 📽History: on this website users can see the history of SMK Negeri 4 Kendal
 2. 📺News: on this website users can also see the latest news covered by the SMKN 4 Kendal documentation team.
 3. 🏆Achievements: on this website users can also see the outstanding students from SMKN 4 Kendal
-4. And Others
+4. 📖provide a question and suggestion column for the public
+5. And Others
 
 
 ## Official Website SMKN 4 Kendal
@@ -21,8 +22,7 @@ Link Website Official: https://smkn4kendal.sch.id/
 ![App Screenshot](https://github.com/NaApipp/pendaftaran-siswa/blob/9057112f276995211691821fa777c6e95454c73e/display%20uiux/1.png)
 ![App Screenshot](https://github.com/NaApipp/pendaftaran-siswa/blob/9057112f276995211691821fa777c6e95454c73e/display%20uiux/2.png)
 ![App Screenshot](https://github.com/NaApipp/pendaftaran-siswa/blob/9057112f276995211691821fa777c6e95454c73e/display%20uiux/3.png)
-![App Screenshot](https://github.com/NaApipp/pendaftaran-siswa/blob/9057112f276995211691821fa777c6e95454c73e/display%20uiux/4.png)
 
 ## Website Re-Design
-Link Re-Design Website: http://apipppp0.free.nf/index.html & https://pendaftaran-siswa-xi.vercel.app/
+Link Re-Design Website: http://apipppp0.free.nf/index.html 
 
